@@ -3,10 +3,29 @@
 <head> <!-- 설명 -->
 	<title></title> <!-- 타이틀 -->
 	<meta charset="utf-8"> <!-- 인코딩 설정 -->
+	<link rel="canonical" href=""> <!-- 선호 URL(모바일 버전을 PC 버전 연결), 절대 경로(https://) -->
+	<meta name="robots" content="명령어">
+	<!--
+	색인대상, 링크 수집(index,follow) - 기본 설정
+	색인대상, 링크 미 수집(index,nofollow)
+	색인제외, 링크 수집(noindex,follow)
+	색인제외, 링크 미 수집(noindex,nofollow)
+	-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- 
+	content="
+	width= 너비 기준, device-width, px 생략
+	height= 높이 기준, device-height
+	initial-scale= 초기 화면 배율, 1.0
+	minimum-scale= 최소 화면 배율, 1.0
+	maximum-scale= 최대 화면 배율, 1.0
+	user-scalable=no 크기 조절 권한
+	"
+	-->
 	<META NAME="Generator" CONTENT="페이지 제작툴">
 	<META NAME="Author" CONTENT="제작자">
 	<META NAME="Keywords" CONTENT="검색 키워드">
-	<META NAME="Description" CONTENT="페이지의 요약설명">
+	<META NAME="Description" CONTENT="페이지의 설명">
 	<META NAME="Copyright" CONTENT="저작권 정보">
 	<META NAME="Subject" CONTENT="홈페이지 주제 입력">
 	<META NAME="Title" CONTENT="홈페이지 이름">
@@ -65,7 +84,22 @@
 	transition=22 수직 랜덤
 	transition=23 1~22 랜덤 선택
 	-->
-
+	<meta property="og:type" content="website">
+	<meta property="og:title" content=""> <!-- 페이지 제목 -->
+	<meta property="og:description" content=""> <!-- 페이지 설명 -->
+	<meta property="og:image" content=""> <!-- 대표 이미지 -->
+	<meta property="og:url" content=""> <!-- 대표 URL -->
+	<script type="application/ld+json"> <!--  -->
+	{
+	 "@context": "http://schema.org",
+	 "@type": "Person",
+	 "name": "My Site Name", <!-- 사이트 명 -->
+	 "url": "", <!-- 사이트 링크 -->
+	 "sameAs": [
+	   "", <!-- 연관 링크 -->
+	   ""
+	 ]
+	}
 </head>
 <body> <!-- 본문 -->
 	<h1></h1> <!-- 제목 1~6 -->
