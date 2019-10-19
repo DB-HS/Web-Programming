@@ -1,6 +1,7 @@
 # Web Programming
 ## 마크다운(.md)
 [마크다운 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+[너와 나를 위한 마크다운 문법정리!](https://gist.github.com/ninanung/946cd0e2e09bd5a94964ff8b612a9012)
 
 ## 관련 자료
 [생활코딩의 WEB](https://opentutorials.org/course/1)  
