@@ -11,10 +11,11 @@
 [코딩 공부 블로그](https://www.codingfactory.net)  
 [zerocho.com](https://www.zerocho.com)  
 [신현석(블로그)](https://hyeonseok.com)  
-[MDN의 개발자를 위한 웹 기술](https://developer.mozilla.org/ko)  
+[MDN 웹 문서](https://developer.mozilla.org/ko)  
 
 ### 외국어
 [w3schools.com](https://www.w3schools.com)  
+[MDN Web Docs](https://developer.mozilla.org/en-US)  
 
 ## 관련 도구
 [구글의 구조화된 데이터 테스팅 도구](https://search.google.com/structured-data/testing-tool)  
