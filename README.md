@@ -19,6 +19,6 @@
 [웹 호환성 체크](https://caniuse.com)  
 [OpenWAX](https://chrome.google.com/webstore/detail/openwax/bfahpbmaknaeohgdklfbobogpdngngoe)
 [bitbucket](https://bitbucket.org/product/ko)  
-[웹페이지 링크 검사](https://error404.atomseo.com/)
+[웹페이지 링크 검사](https://error404.atomseo.com/) - 
 [크롬 확장 프로그램](https://chrome.google.com/webstore/detail/broken-link-checker/nibppfobembgfmejpjaaeocbogeonhch)  
 [CKEditor](https://ckeditor.com)
