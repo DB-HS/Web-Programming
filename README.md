@@ -18,6 +18,7 @@
 [MDN Web Docs](https://developer.mozilla.org/en-US)  
 
 ## 관련 도구
+[구글의 Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights)
 [구글의 구조화된 데이터 테스팅 도구](https://search.google.com/structured-data/testing-tool)  
 [구글의 모바일 친화성 테스트](https://search.google.com/test/mobile-friendly)  
 [OpenWAX](https://chrome.google.com/webstore/detail/openwax/bfahpbmaknaeohgdklfbobogpdngngoe)  
