@@ -19,7 +19,6 @@
 
 ## 관련 도구
 [구글의 구조화된 데이터 테스팅 도구](https://search.google.com/structured-data/testing-tool)  
-[웹 호환성 체크](https://caniuse.com)  
 [OpenWAX](https://chrome.google.com/webstore/detail/openwax/bfahpbmaknaeohgdklfbobogpdngngoe)  
 [bitbucket](https://bitbucket.org/product/ko)  
 [웹페이지 링크 검사](https://error404.atomseo.com/) - 
