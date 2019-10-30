@@ -19,10 +19,11 @@
 
 ## 관련 도구
 [구글의 구조화된 데이터 테스팅 도구](https://search.google.com/structured-data/testing-tool)  
+[구글의 모바일 친화성 테스트](https://search.google.com/test/mobile-friendly)  
 [OpenWAX](https://chrome.google.com/webstore/detail/openwax/bfahpbmaknaeohgdklfbobogpdngngoe)  
 [bitbucket](https://bitbucket.org/product/ko)  
 [웹페이지 링크 검사](https://error404.atomseo.com/) - 
 [크롬 확장 프로그램](https://chrome.google.com/webstore/detail/broken-link-checker/nibppfobembgfmejpjaaeocbogeonhch)  
 [CKEditor](https://ckeditor.com)  
 [웹 태그 호환성 체크](https://caniuse.com)  
-[HTML5 기술지원센터](https://www.koreahtml5.kr)
+[HTML5 기술지원센터](https://www.koreahtml5.kr)  
