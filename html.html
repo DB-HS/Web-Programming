@@ -10,6 +10,39 @@
 	<style> // CSS 시작, 우선 순위(A < .A < #A)
 	</style>
 	-->
+	<!--
+	<input type="button" value="" onclick="
+		document.querySelector('body').style.backgroundColor = 'black';
+		document.querySelector('body').style.color = 'white';
+	">
+	value= 표시 텍스트
+	onclick= javascript
+
+	<input type="button" value="" onclick="
+	var target = document.querySelector('body');
+	if(this.value === ''){
+		target.style.backgroundColor = 'black';
+		target.style.color = 'white';
+		document.querySelector().value = 'day'
+	}
+	else{
+		target.style.backgroundColor = 'white';
+		target.style.color = 'black';
+		document.querySelector().value === 'night'
+	}
+	">
+	var(변수)
+	this(해당 태그)
+	var (배열) = ["1", "2"];
+	document.write((배열)[0]);
+	(배열).length;
+	(배열).push('(추가)');
+	var i = 0;
+	while(i < (배열).length){
+		document.write('<li><a href="https://'+(배열)[i]+'">'+(배열)[i]+'</a></li>');
+		i = i + 1;
+	}
+	-->
 	<meta name="robots" content="">
 	<!--
 	색인대상, 링크 수집(index,follow) - 기본 설정
@@ -95,17 +128,21 @@
 	<meta property="og:description" content=""> <!-- 페이지 설명 -->
 	<meta property="og:image" content=""> <!-- 대표 이미지 -->
 	<meta property="og:url" content=""> <!-- 대표 URL -->
-	<script type="application/ld+json"> <!-- 스크립트 타입 JSON -->
+	<script type="application/ld+json">
 	{
 	 "@context": "http://schema.org",
 	 "@type": "Person",
-	 "name": "My Site Name", <!-- 사이트 명 -->
-	 "url": "", <!-- 사이트 링크 -->
+	 "name": "My Site Name",
+	 "url": "",
 	 "sameAs": [
-	   "", <!-- 연관 링크 -->
+	   "",
 	   ""
 	 ]
 	}
+	<!-- 스크립트 타입 JSON -->
+	<!-- name 사이트 명 -->
+	<!-- url 사이트 링크 -->
+	<!-- sameAs 연관 링크 -->
 </head>
 <body> <!-- 본문 -->
 	<h1></h1> <!-- 제목 1~6 -->
@@ -138,5 +175,14 @@
 	<hr> <!-- 가로 구분선 -->
 	<input type="button" value="night" onclick=" // 자바스크립트
 	">
+	<script>
+		document.write(1===1)
+	</script> <!-- boolean(참, 거짓) -->
+	<script>
+		if(){
+		   }
+		   else {
+		   }
+	</script> <!-- 조건문 -->
 </body>
 </html>
