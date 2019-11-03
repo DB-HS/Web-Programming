@@ -10,28 +10,10 @@
 	<style> // CSS 시작, 우선 순위(A < .A < #A)
 	</style>
 	-->
+	<script src="js.js"></script> <!-- JS 파일 불러오기 -->
 	<!--
-	<script src="js.js"></script>
-	<input type="button" value="" onclick="
-		document.querySelector('body').style.backgroundColor = 'black';
-		document.querySelector('body').style.color = 'white';
-	">
-	value= 표시 텍스트
-	onclick= javascript
-
-	<input type="button" value="" onclick="
-	var target = document.querySelector('body');
-	if(this.value === ''){
-		target.style.backgroundColor = 'black';
-		target.style.color = 'white';
-		document.querySelector().value = 'day'
-	}
-	else{
-		target.style.backgroundColor = 'white';
-		target.style.color = 'black';
-		document.querySelector().value === 'night'
-	}
-	">
+	<script> // CSS 시작, 우선 순위(A < .A < #A)
+	</script>
 	-->
 	<meta name="robots" content="">
 	<!--
@@ -174,5 +156,26 @@
 		   else {
 		   }
 	</script> <!-- 조건문 -->
+	<input type="button" value="" onclick="
+		document.querySelector('body').style.backgroundColor = 'black';
+		document.querySelector('body').style.color = 'white';
+	">
+	<!--
+	value= 표시 텍스트
+	onclick= javascript
+	-->
+	<input type="button" value="" onclick="
+	var target = document.querySelector('body');
+	if(this.value === ''){
+		target.style.backgroundColor = 'black';
+		target.style.color = 'white';
+		document.querySelector().value = 'day'
+	}
+	else{
+		target.style.backgroundColor = 'white';
+		target.style.color = 'black';
+		document.querySelector().value === 'night'
+	}
+	">
 </body>
 </html>
