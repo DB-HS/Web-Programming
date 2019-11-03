@@ -1,3 +1,16 @@
+// 객체.속성
+/* 추천 검색어
+document(태그에 대한 객체),
+DOM(DOM > document),
+window(웹브라우저 제어 객체),
+ajax(웹페이지 리로드 없이 정보 변경),
+cookie(리로드되어도 현재 상태 유지),
+offline web application(인터넷이 끊겨도 동작하는 웹페이지 제작),
+webRTC(화상 통신 웹 앱 제작),
+speech(사용자의 음성 인식, 음성으로 정보 전달 API)
+webGL(3차원 그래픽으로 게임과 같은 것 제작)
+webVR(가상현실 제작)
+*/
 var/* 변수 */ /*  */
 this/* 해당 태그 */
 var (배열) = ["1", "2"];
@@ -31,15 +44,15 @@ for(var key in (객체)){
   document.write(key+' : '+this[key]+'<br>');
   }
 }
-var (객체A) = {
-  (객체B):function(){}
+var (객체) = {
+  (속성):function(){}
 }
-function (객체A+B)(){}
+function (객체+속성)(){}
 var Body = {
-  (객체B):function(color){
+  (속성):function(color){
     document.querySelector('body').style.color = color;
   }
-  (객체B):function(color){
+  (속성):function(color){
     document.querySelector('body').style.backgroundColor = color;
   }
 }
