@@ -3,7 +3,7 @@ a { // a 에 대해서
   color:red; // 색 설정
   text-decoration: none; // 밑줄 설정, underline
 }
-./*class*/ { // class(속성은 띄어쓰기로 여러 가지 입력), slass="A B"
+./*class*/ { // class(속성은 띄어쓰기로 여러 가지 입력), class="A B"
 }
 #/*id*/ { // 페이지 유일형
 }
