@@ -1,4 +1,4 @@
-// CSS 시작, 우선 순위(A < .A < #A)
+// CSS 시작, 우선 순위(A < .A < #A), !important
 a { // a 에 대해서
   color:red; // 색 설정
   text-decoration: none; // 밑줄 설정, underline
