@@ -32,5 +32,5 @@ h1, h2 {
   }
 }
 // 고정형 레이아웃
-span#talklink {position: fixed; bottom: 10px; right: 10px;}
-span#talklink p {margin: 10px;}
+span#/*id*/ {position: fixed; bottom: 10px; right: 10px;}
+span#/*id*/ p {margin: 10px;}
