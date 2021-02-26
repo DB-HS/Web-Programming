@@ -28,6 +28,18 @@ h1, h2 {
   display:inline; /* 형식(block, inline, none) */
   grid-template-columns: 150px 1fr; /* fr(나눔값) */
 }
+box {
+  display: -webkit-box;
+  display: -webkit-inline-box;
+  -webkit-box-orient: ;
+  -webkit-line-clamp: ; /* 콘텐츠 줄 제한, https://developer.mozilla.org/ko/docs/Web/CSS/-webkit-line-clamp */
+  overflow: hidden;
+}
+.nowrap {
+  overflow: hidden; /* https://developer.mozilla.org/ko/docs/Web/CSS/overflow */
+  text-overflow: ellipsis;
+  white-space: nowrap; /* https://developer.mozilla.org/ko/docs/Web/CSS/white-space */
+}
 table {
   table-layout: fixed; /* 테이블 레이아웃, https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout */
 }
