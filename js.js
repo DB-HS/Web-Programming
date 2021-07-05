@@ -56,5 +56,6 @@ var Body = {
     document.querySelector('body').style.backgroundColor = color;
   }
 }
+/* 참조: https://www.codingfactory.net/10438 */
 document.write( location.href );/* 현재 페이지 링크 가져오기(페이지 전환) */
 console.log( location.href )/* 콘솔 로그에 현재 페이지 링크 표시 */
