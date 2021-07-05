@@ -56,3 +56,5 @@ var Body = {
     document.querySelector('body').style.backgroundColor = color;
   }
 }
+document.write( location.href );/* 현재 페이지 링크 가져오기(페이지 전환) */
+console.log( location.href )/* 콘솔 로그에 현재 페이지 링크 표시 */
