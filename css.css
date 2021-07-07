@@ -54,3 +54,6 @@ span#/*id*/ p {margin: 10px;}
 
 /* 부동 요소 */
 clear /* https://developer.mozilla.org/ko/docs/Web/CSS/clear 참조 */
+
+/* 커서 모양 */
+cursor /* https://developer.mozilla.org/ko/docs/Web/CSS/cursor 참조 */
