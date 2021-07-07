@@ -15,11 +15,11 @@ h1, h2 {
   text-align:center; /* 글자 정렬 */
   border:5px red solid
   /*
-  border-bottom:1px gray solid /* 하단 테두리 */
-  border-right:1px gray solid /* 우측 테두리 */
-  border-width:5px; /* 테두리 두께 */
-  border-color:red; /* 테두리 색 */
-  border-style:solid; /* 테두리 스타일 */
+  border-bottom:1px gray solid /=* 하단 테두리 *=/
+  border-right:1px gray solid /=* 우측 테두리 *=/
+  border-width:5px; /=* 테두리 두께 *=/
+  border-color:red; /=* 테두리 색 *=/
+  border-style:solid; /=* 테두리 스타일 *=/
   */
   padding:20px; /* 테두리 안쪽 여백 */
   padding-left: /* 테두리 안쪽 좌측 여백 */
@@ -51,3 +51,6 @@ table {
 /* 고정형 레이아웃 */
 span#/*id*/ {position: fixed; bottom: 10px; right: 10px;}
 span#/*id*/ p {margin: 10px;}
+
+/* 부동 요소 */
+clear /* https://developer.mozilla.org/ko/docs/Web/CSS/clear 참조 */
