@@ -4,9 +4,9 @@ a { /* a 에 대해서 */
   color:red; /* 색 설정 */
   text-decoration: none; /* 밑줄 설정, underline */
 }
-./*class*/ { /* class(속성은 띄어쓰기로 여러 가지 입력), class="A B" */
+./* class */ { /* class(속성은 띄어쓰기로 여러 가지 입력), class="A B" */
 }
-#/*id*/ { /* 페이지 유일형 */
+#/* id */ { /* 페이지 유일형 */
 }
 body h1 { /* 페이지 내의 h1 태그에 대한 설정 */
 }
@@ -57,3 +57,34 @@ clear /* https://developer.mozilla.org/ko/docs/Web/CSS/clear 참조 */
 
 /* 커서 모양 */
 cursor /* https://developer.mozilla.org/ko/docs/Web/CSS/cursor 참조 */
+
+/* 스크롤 관련 */
+html { overflow-y:scroll; } /* 세로스크롤을 항상 표시 */
+::-webkit-scrollbar { width: 10px; height: 10px; } /* 스크롤 바 */
+::-webkit-scrollbar-track { background: #fff; } /* 스크롤 바 밑의 배경 */
+::-webkit-scrollbar-thumb { background: #858585; border-radius:10px } /* 실질적 스크롤 바 */
+::-webkit-scrollbar-thumb:hover { background: #8f8f8f; } /* 실질적 스크롤 바 위에 마우스를 올려다 둘 때 */
+::-webkit-scrollbar-thumb:active { background: #999999; } /* 실질적 스크롤 바를 클릭할 때 */
+::-webkit-scrollbar-button { display: none; } /* 스크롤 바 상단 하단 버튼 */
+
+
+/* 참조 기능 https://youtu.be/lkTpOHv1Ros
+
+@supports 기능 지원 여부
+https://developer.mozilla.org/ko/docs/Web/CSS/@supports
+
+scroll-snap-type 스크롤 관련
+https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+
+:is 다수 선택 관련
+https://developer.mozilla.org/en-US/docs/Web/CSS/:is
+
+gap 내부 간격 관련
+https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+
+aspect-ratio 종횡비 관련
+https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
+
+position: sticky 스크롤에 따라 위치 고정 관련
+https://developer.mozilla.org/ko/docs/Web/CSS/position
+*/
