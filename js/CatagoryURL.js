@@ -14,5 +14,5 @@
     //페이지 새로고침 없이 갱신
     history.pushState(null, null, CatagoryURL);
   }		
-</script>
+//</script>
 //<!-- // 카테고리 매개변수 지우기 -->
