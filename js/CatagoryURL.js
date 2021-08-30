@@ -1,5 +1,4 @@
-//<!-- 카테고리 매개변수 지우기 -->
-//<script type="text/javascript">		
+//카테고리 매개변수 지우기
   //브라우저가 pushState가 지원되지 않는다면 사용하지 않도록 설정
   if(typeof(history.pushState) == 'function')
   {
@@ -13,6 +12,5 @@
 
     //페이지 새로고침 없이 갱신
     history.pushState(null, null, CatagoryURL);
-  }		
-//</script>
+  }
 //<!-- // 카테고리 매개변수 지우기 -->
