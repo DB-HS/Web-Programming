@@ -6,11 +6,12 @@
     //현재 주소를 가져온다.
     var CatagoryURL = location.href;
 
-    //게시글 중 매개변수 category가 붙으면 없애버린다.
+    //url 중 매개변수(category, fbclid)가 붙으면 제거
     //CatagoryURL = CatagoryURL.replace(/\?category=([0-9]+)/ig,'');
-    CatagoryURL = CatagoryURL.replace(/\?[0-9, A-Z, a-z, =, \-, _]+/,'');
+    CatagoryURL = CatagoryURL.replace(/\?category=[0-9, A-Z, a-z, =, \-, _]+/,'');
+    CatagoryURL = CatagoryURL.replace(/\?fbclid=[0-9, A-Z, a-z, =, \-, _]+/,'');
 
-    //페이지 새로 고침 없이 갱신
+    //페이지 새로고침 없이 갱신
     history.pushState(null, null, CatagoryURL);
   }		
 </script>
