@@ -1,0 +1,18 @@
+<!-- 카테고리 매개변수 지우기 -->
+<script type="text/javascript">		
+  //브라우저가 pushState가 지원되지 않는다면 사용하지 않도록 설정
+  if(typeof(history.pushState) == 'function')
+  {
+    //현재 주소를 가져온다.
+    var CatagoryURL = location.href;
+
+    //url 중 매개변수(category, fbclid)가 붙으면 제거
+    //CatagoryURL = CatagoryURL.replace(/\?category=([0-9]+)/ig,'');
+    CatagoryURL = CatagoryURL.replace(/\?category=[0-9, A-Z, a-z, =, \-, _]+/,'');
+    CatagoryURL = CatagoryURL.replace(/\?fbclid=[0-9, A-Z, a-z, =, \-, _]+/,'');
+
+    //페이지 새로고침 없이 갱신
+    history.pushState(null, null, CatagoryURL);
+  }		
+</script>
+<!-- // 카테고리 매개변수 지우기 -->
